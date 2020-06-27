@@ -10,7 +10,7 @@ import kotlin.test.assertNotNull
 class CarTest {
     @Test fun testAppHasAGreeting() {
         val classUnderTest = Car()
-        val trabbi = CarData(4, "601")
-        assertEquals(classUnderTest.printCar(trabbi), "wheels: 4 - model: 601 ")
+        val trabbi = CarData(4, "something","601")
+        assertEquals(classUnderTest.printCar(trabbi), "wheels: 4 - model: something ") // model value is wrong
     }
 }

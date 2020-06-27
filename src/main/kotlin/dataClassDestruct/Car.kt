@@ -2,6 +2,7 @@ package dataClassDestruct
 
 data class CarData(
     val wheels: Int,
+    val name: String, // added later
     val model: String
     )
 
@@ -15,6 +16,6 @@ class Car {
 }
 
 fun main() {
-    val trabbi = CarData(4, "601")
+    val trabbi = CarData(4, "something","601")
     println(Car().printCar(trabbi))
 }
