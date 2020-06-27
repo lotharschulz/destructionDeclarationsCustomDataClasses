@@ -8,9 +8,10 @@ data class CarData(
 
 class Car {
     fun printCar(car: CarData):String{
-        val (wheels, model) = car
+        val (wheels, model, name) = car
         return "wheels: $wheels " +
-                "- model: $model "
+                "- model: $model " +
+                "- name: $name "
     }
 
 }

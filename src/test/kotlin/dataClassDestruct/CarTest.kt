@@ -11,6 +11,6 @@ class CarTest {
     @Test fun testAppHasAGreeting() {
         val classUnderTest = Car()
         val trabbi = CarData(4, "something","601")
-        assertEquals(classUnderTest.printCar(trabbi), "wheels: 4 - model: something ") // model value is wrong
+        assertEquals(classUnderTest.printCar(trabbi), "wheels: 4 - model: something - name: 601 ") // model & name is still wrong
     }
 }
