@@ -3,7 +3,7 @@ package dataClassDestruct
 data class CarData(
     val wheels: Int,
     val model: String
-    )
+)
 
 class Car {
     fun printCar(car: CarData):String{
