@@ -2,7 +2,6 @@ package dataClassDestruct
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertNotNull
 
 class CarTest {
     @Test fun testAppHasAGreeting() {
