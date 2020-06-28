@@ -1,10 +1,10 @@
 package dataClassDestruct
 
 data class CarData(
-    val wheels: Int,
-    val name: String, // added later
-    val model: String
-    )
+    val wheels: Int = 0,
+    val name: String = "", // added later
+    val model: String = ""
+)
 
 class Car {
     fun printCar(car: CarData):String{

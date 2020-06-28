@@ -23,7 +23,7 @@ can be destructed:
     }
 ```
 
-(branch 01).
+more details in branch destructDeclarationsCustomDataClasses01
 
 However, adding a property to the data class:
 
@@ -49,9 +49,9 @@ can cause misleading results
     }
 ```
 
-(branch 02)
+more details in branch destructDeclarationsCustomDataClasses02
 
-Adapting the destruction to the property 
+Adapting the destruction of the property 
 
 ```kotlin
     fun printCar(car: CarData):String{
@@ -64,13 +64,26 @@ Adapting the destruction to the property
 
 improves the code
 
-(branch 03)
+more details in branch destructDeclarationsCustomDataClasses03
 
-One way to fix is map by name  
+Additional ways to improve the fix are 
+
+_data class constructor default values_
+ 
+```kotlin
+data class CarData(
+    val wheels: Int = 0,
+    val name: String = "", // added later
+    val model: String = ""
+)
+```
+ 
+ _map by name_  
 ```kotlin
 val trabbi = CarData(wheels = 4, name = "trabbi", model = "601")
 ```
 
+---
 
 Run
 
