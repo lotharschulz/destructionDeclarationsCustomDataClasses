@@ -22,7 +22,7 @@ fun printCar(car: CarData):String{
             "- model: $model "
 }
 ```
-(full showcase code in branch destructDeclarationsCustomDataClasses01)
+(full showcase code in branch [destructDeclarationsCustomDataClasses01](https://github.com/lotharschulz/destructionDeclarationsCustomDataClasses/tree/destructDeclarationsCustomDataClasses01))
 
 ---
 
@@ -50,7 +50,7 @@ fun printCar(car: CarData):String{
 }
 ```
 
-(full showcase code in branch destructDeclarationsCustomDataClasses02)
+(full showcase code in branch [destructDeclarationsCustomDataClasses02](https://github.com/lotharschulz/destructionDeclarationsCustomDataClasses/tree/destructDeclarationsCustomDataClasses02))
 
 ---
 
@@ -67,7 +67,7 @@ fun printCar(car: CarData):String{
 
 improves the code
 
-(full showcase code in branch  destructDeclarationsCustomDataClasses03)
+(full showcase code in branch [destructDeclarationsCustomDataClasses03](https://github.com/lotharschulz/destructionDeclarationsCustomDataClasses/tree/destructDeclarationsCustomDataClasses03))
 
 ---
 
@@ -87,6 +87,8 @@ Additional ways to improve the fix are
   ```kotlin
   val trabbi = CarData(wheels = 4, name = "trabbi", model = "601")
   ```
+
+as in [master](https://github.com/lotharschulz/destructionDeclarationsCustomDataClasses/tree/master) branch
 
 ---
 ---
